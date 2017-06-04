@@ -7,7 +7,7 @@ devtools::install_github('rweyant/googleflights')
 ```
 An API key is required to access the Google QPX Express API,and can be obtained by creating a project in the Google API Console. For more details, see [here](https://developers.google.com/qpx-express/v1/prereqs).
 
-and the mailR package:
+to be able to send the user an email once a cheap airfare was found, the mailR R package is also required:
 ```{r}
 install.packages("mailR")
 ```
